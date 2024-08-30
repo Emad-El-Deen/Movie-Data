@@ -1,0 +1,165 @@
+.row img {
+  height: 150px !important;
+  width: 100%;
+  object-fit: contain;
+
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  margin: 100px auto;
+}
+
+.double-bounce1,
+.double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+
+  0%,
+  100% {
+    -webkit-transform: scale(0.0)
+  }
+
+  50% {
+    -webkit-transform: scale(1.0)
+  }
+}
+
+@keyframes sk-bounce {
+
+  0%,
+  100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  }
+
+  50% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+/* ----------------- */
+.carousel-indicators-round {
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 100% !important;
+}
+
+.carousel-item{
+  height: 650px ;
+  
+}
+.carousel-item img{
+  height: 600px;
+  border-radius:100px!important;
+position: relative;
+}
+.black{
+  color: white;
+  width: 40%;
+  position: absolute;
+z-index: 565;
+top: 50%;
+left: 20%;
+}
+
+ .black h1{
+  font-size: 30px;
+  text-align: left;
+  position: relative;
+  top: 60%;
+  left: 5%;
+  color: #fff;
+}
+
+ .black .star{
+  color: #ffd500;
+  text-align: left;
+  font-size: 16px;
+  margin: 10px 0;
+  position: relative;
+  top: 60%;
+  left: 5%;
+}
+
+ .black p{
+  width: 550px;
+  text-align: justify;
+  font-size: 16px;
+  color: #cccccc;
+  margin: 10px 0;
+  position: relative;
+  top: 60%;
+  left: 5%;
+  line-height: 23px;
+  font-family: "Ink Free";
+}
+
+ .black .genre{
+  text-align: left;
+  font-size: 16px;
+  margin: 13px 0;
+  position: relative;
+  top: 60%;
+  left: 5%;
+}
+
+ .black .genre a.category{
+  background: #282931;
+  text-decoration: none;
+  color: #cccccc;
+  padding: 2px 7px;
+}
+
+ .black .genre a.category span{
+  color: #ffe100;
+}
+
+ .black .watch{
+  width: 700px;
+  text-align: left;
+  display: flex;
+  font-size: 16px;
+  margin: 10px 0;
+  position: relative;
+  top: 60%;
+  left: 5%;
+}
+
+ .black .watch i{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #ffe100;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+ .black .watch p{
+  position: relative;
+  left: 15px;
+  font-family: sans-serif;
+}
